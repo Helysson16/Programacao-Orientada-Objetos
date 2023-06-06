@@ -1,0 +1,46 @@
+.container-cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+}
+
+.card {
+    border-radius: 16px;
+    border: 1px solid #aaaaaa;
+    padding: 20px;
+    width: 300px;
+}
+
+.foto {
+    width: 220px;
+    height: 280px;
+    object-fit: cover;
+}
+
+.info .modelo {
+    font-size: 16pt;
+    color: #333333;
+}
+
+.info .marca {
+    font-size: 12pt;
+    color: #777777;
+}
+
+.info .outros {
+    font-size: 12pt;
+}
+
+.info .separador {
+    color: #aaaaaa;
+    padding: 10px;
+}
+.btn-remover{
+font-size: 24pt;
+font-weight: bold;
+
+width: fit-content ;
+padding: 8px 16px;
+background-color: white;
+color: ;
+}
