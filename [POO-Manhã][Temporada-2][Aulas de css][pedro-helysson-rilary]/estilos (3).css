@@ -1,0 +1,88 @@
+body {
+    background-color: #000000;
+    
+}
+
+.card {
+    width: 720px;
+     /*margin-left; 60px;*/
+    margin-bottom: 20px;/* Margem inferior */
+    
+    flex-direction: column;
+    display: flex;
+}
+
+.card:hover{   /*Quando passar o mouse por cima do card */
+    transform: scale(1.05);
+    transition: 300ms ease-out;
+}
+.card:not(.card:hover){
+    opacity: 0,5;
+}
+.cabecalho {
+    
+    z-index: 1000;
+
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    margin-left: -6px;
+    box-shadow: 4px 16px 10px 10px #10101066;  /* sombra*/
+    background-color: #303030;
+}
+
+.cabecalho .turma {
+    color: #6db95e;
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+    ;
+}
+
+.cabecalho .nome {
+    color: #ffffff;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.cabecalho .logo {
+    height: 140px;
+}
+
+.conteudo {
+    background-color: #eaeaea;
+    display: flex;
+    justify-content: space-around;
+    padding: 24px;
+    z-index: 1;
+}
+
+.conteudo .foto {
+    width: 150px;
+    border: solid 1px #000000;
+    object-fit: cover;
+
+    
+}
+
+.conteudo .info {
+    /* border: solid 1px #000000;*/
+    width: 400px;
+    padding: 40px;
+}
+
+.info .label {
+    color: #3cc4ce;
+
+    font-size: 14px;
+    font-family: 'Roboto';
+    font-weight: 500;
+}
+
+.info .valor {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 800;
+    font-size: 20px;
+
+    border-bottom: 1px solid #2c808755;
+}
